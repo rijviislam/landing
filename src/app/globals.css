@@ -51,4 +51,12 @@ body {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0) 55.49%, #000 127.64%),
       linear-gradient(270deg, rgba(0, 0, 0, 0) 67.15%, #000 119.31%);
   }
+  .from-idea-bg {
+    background: radial-gradient(
+        51.72% 51.72% at 50% 92.16%,
+        var(--Color-Primary, rgba(31, 255, 165, 0.2)) 0%,
+        rgba(31, 255, 165, 0.02) 100%
+      ),
+      var(--Color-Card, #192420);
+  }
 }
