@@ -44,7 +44,7 @@ export default function PortfolioSlider() {
           if (mouseOver) return;
           timeout = setTimeout(() => {
             slider.next();
-          }, 2000);
+          }, 3000);
         }
 
         slider.on("created", () => {

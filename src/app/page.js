@@ -1,3 +1,4 @@
+import Designs from "./components/Designs";
 import Hero from "./components/Hero";
 import PortfolioSlider from "./components/PortfolioSlider";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Hero />
       <PortfolioSlider/>
+      <Designs/>
     </>
   );
 }
