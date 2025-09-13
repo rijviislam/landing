@@ -5,6 +5,7 @@
 
 :root {
   --background: #151e1b;
+  --color-mycolor: var(--background);
   --foreground: #003d25;
   --font-general: "General Sans", sans-serif;
   --font-manrope: "Manrope", sans-serif;
@@ -39,4 +40,11 @@ body {
   background: #151e1b;
   color: #003d25;
   font-family: "Manrope", sans-serif;
+}
+
+@layer utilities {
+  .linear-bg {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 72.12%, #000 115.94%),
+      linear-gradient(270deg, rgba(0, 0, 0, 0) 72.71%, #000 120.87%);
+  }
 }
