@@ -27,8 +27,9 @@ const fromCard = [
 
 export default function FromIdea() {
   return (
-    <section className="flex items-center justify-center  from-idea-bg">
-      <div className="max-w-[1200px] w-full  py-32 ">
+    <section className="flex items-center justify-center  ">
+      <div className="max-w-[1200px] w-full  py-32 relative">
+        <div className="w-[204px] h-[204px] bg-primary rounded-full absolute top-1/2 -translate-y-1/2 blur-[300px]"></div>
         <div className="flex flex-col gap-2 text-center items-center ">
           <SectionHeader
             className="text-4xl lg:text-5xl  text-center"
