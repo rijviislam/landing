@@ -1,26 +1,42 @@
+@import url("https://api.fontshare.com/v2/css?f[]=general-sans@200,300,400,500,600,700&f[]=manrope@200,300,400,500,600,700,800&display=swap");
+
 @import "tailwindcss";
+@import "@radix-ui/themes/styles.css";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #151e1b;
+  --foreground: #003d25;
+  --font-general: "General Sans", sans-serif;
+  --font-manrope: "Manrope", sans-serif;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: #151e1b;
+  --color-background-dark: #0a0f0d;
+  --color-primary: #1fffa5;
+  --color-text-secondary-light: #b2b2b2;
+  --color-text-light: #f5f5f5;
+  --color-primary-dark: #002013;
+  --color-primary-light: #00e58a;
+  --color-card: #192420;
+  --color-stroke: #2a3c36;
+  --color-foreground: #003d25;
+  --font-general: "General Sans", sans-serif;
+  --font-manrope: "Manrope", sans-serif;
+  --shadow-shadow-box: 0 12px 32px 0 rgba(31, 255, 165, 0.1);
+  --shadow-shadow-button: 0 7px 8px 0 rgba(255, 255, 255, 0.5) inset,
+    0 9px 24px 0 rgba(31, 255, 165, 0.25);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #151e1b;
     --foreground: #ededed;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #151e1b;
+  color: #003d25;
+  font-family: "Manrope", sans-serif;
 }
