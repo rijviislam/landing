@@ -1,6 +1,7 @@
 import CaseStudies from "./components/CaseStudies";
 import ClientSaying from "./components/ClientSaying";
 import Designs from "./components/Designs";
+import Footer from "./components/Footer";
 import FromIdea from "./components/FromIdea";
 import GotQuestion from "./components/GotQuestion";
 import Hero from "./components/Hero";
@@ -20,6 +21,7 @@ export default function Home() {
       <ClientSaying/>
       <GotQuestion/>
       <RealCustomer/>
+      <Footer/>
     </>
   );
 }
