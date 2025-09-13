@@ -2,6 +2,7 @@ import CaseStudies from "./components/CaseStudies";
 import ClientSaying from "./components/ClientSaying";
 import Designs from "./components/Designs";
 import FromIdea from "./components/FromIdea";
+import GotQuestion from "./components/GotQuestion";
 import Hero from "./components/Hero";
 import PortfolioSlider from "./components/PortfolioSlider";
 import PricingSection from "./components/PricingSection";
@@ -16,6 +17,7 @@ export default function Home() {
       <PricingSection/>
       <FromIdea/>
       <ClientSaying/>
+      <GotQuestion/>
     </>
   );
 }
