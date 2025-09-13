@@ -6,6 +6,7 @@ import GotQuestion from "./components/GotQuestion";
 import Hero from "./components/Hero";
 import PortfolioSlider from "./components/PortfolioSlider";
 import PricingSection from "./components/PricingSection";
+import RealCustomer from "./components/RealCustomer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <FromIdea/>
       <ClientSaying/>
       <GotQuestion/>
+      <RealCustomer/>
     </>
   );
 }

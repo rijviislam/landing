@@ -30,7 +30,7 @@ const question = [
 export default function GotQuestion() {
   return (
     <section className="flex items-center justify-center w-full">
-      <div className="max-w-[912px]">
+      <div className="max-w-[912px] pb-12">
         <div className="flex gap-2 flex-col mx-5 md:mx-16 lg:mx-5">
           <SectionHeader
             className="text-4xl lg:text-5xl md:flex md:gap-1"
