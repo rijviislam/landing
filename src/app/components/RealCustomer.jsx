@@ -9,7 +9,9 @@ import Button from "./Button";
 
 export default function RealCustomer() {
   return (
-    <section className="flex items-center justify-center bg-background-dark">
+    <section className="flex items-center justify-center bg-background-dark relative overflow-x-hidden">
+      <div className="w-[204px] h-[204px] bg-primary rounded-full absolute top-1/2 -translate-y-1/2 blur-[300px] -left-28"></div>
+      <div className="w-[204px] h-[204px] bg-primary rounded-full absolute top-1/2 -translate-y-1/2 blur-[300px] -right-28"></div>
       <div className="max-w-[950px] w-full flex items-center justify-center py-12">
         <div className="flex flex-col items-center text-center">
           <div className="flex flex-col ">
