@@ -47,4 +47,8 @@ body {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0) 72.12%, #000 115.94%),
       linear-gradient(270deg, rgba(0, 0, 0, 0) 72.71%, #000 120.87%);
   }
+  .lineaer-bg-seconday {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 55.49%, #000 127.64%),
+      linear-gradient(270deg, rgba(0, 0, 0, 0) 67.15%, #000 119.31%);
+  }
 }

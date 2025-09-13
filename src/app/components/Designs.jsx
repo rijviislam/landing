@@ -60,7 +60,7 @@ export default function Designs() {
           <SectionHeader
             title={"Why Businesses"}
             spanItem={" Trust Us"}
-            title={" With Their Designs"}
+            title2={" With Their Designs"}
             className="text-center lg:text-5xl text-4xl"
           />
           <SectionPtext

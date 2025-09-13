@@ -9,6 +9,7 @@ import RightArrowIcon from "../icons/RightArrowIcon";
 import RightIcon from "../icons/RightIcon";
 import StarIcon from "../icons/StarIcon";
 import UserIcon from "../icons/UserIcon";
+import Button from "./Button";
 
 export default function Hero() {
   return (
@@ -19,7 +20,7 @@ export default function Hero() {
           <Image src={Logo} alt="Logo" className="mt-6" />
         </Link>
         {/* BADGE LARGE  */}
-        <p className="border-t text-text-secondary-light text-xs bg-card border-primary rounded-full inline-flex gap-2 items-center justify-center py-2 px-4 md:mt-10 lg:mt-56 mt-8 font-general mx-auto text-center">
+        <p className="border-t text-text-secondary-light text-xs bg-card border-primary rounded-full inline-flex gap-2 items-center justify-center py-2 px-4 md:mt-10 lg:mt-20 mt-8 font-general mx-auto text-center">
           <BannerIcon /> Trusted by 30+ startups & entrepreneurs worldwide
         </p>
         <div className="mt-6">
@@ -60,9 +61,9 @@ export default function Hero() {
               />
             </div>
           </div>
-          <button className="text-primary-dark text-xs font-general bg-primary rounded-sm shadow-shadow-button w-full px-8 py-4 flex gap-2 items-center justify-center cursor-pointer">
-            Get my high-converting landing page <RightArrowIcon />
-          </button>
+          <Button icon={<RightArrowIcon />} className="!w-full">
+            Get my high-converting landing page
+          </Button>
         </div>
         <div className="mt-4 flex items-center md:gap-16 gap-6  md:flex-nowrap flex-wrap justify-center">
           <p className="text-text-secondary-light font-general text-xs flex items-center gap-2 justify-center">
