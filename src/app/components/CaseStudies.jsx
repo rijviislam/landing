@@ -83,8 +83,8 @@ export default function CaseStudies() {
   });
 
   return (
-    <section className="bg-background-dark">
-      <div className="py-32 flex-col flex items-center">
+    <section className="bg-background-dark ">
+      <div className="py-12 md:py-32 flex-col flex items-center">
         <div className="flex flex-col gap-2 items-center">
           <SectionHeader
             title={"Case Studies"}
@@ -93,7 +93,7 @@ export default function CaseStudies() {
           <SectionPtext text={"See the designs that delivered results"} />
         </div>
 
-        <div ref={sliderRef} className="keen-slider my-12">
+        <div ref={sliderRef} className="keen-slider md:my-12">
           {sliderArray?.map((slider, index) => (
             <div
               key={index}
@@ -120,7 +120,7 @@ export default function CaseStudies() {
           ))}
         </div>
 
-        <div className="mt-12 flex flex-col gap-5 mx-5">
+        <div className="mt-12 flex flex-col gap-5 px-5">
           {sliderArray?.map((card, idx) => (
             <div
               key={idx}

@@ -29,9 +29,9 @@ const question = [
 ];
 export default function GotQuestion() {
   return (
-    <section className="flex items-center justify-center w-full">
+    <section className="flex items-center justify-center w-full ">
       <div className="max-w-[912px] pb-12">
-        <div className="flex gap-2 flex-col mx-5 md:mx-16 lg:mx-5">
+        <div className="flex gap-2 flex-col mx-4 md:mx-16 lg:mx-5">
           <SectionHeader
             className="text-4xl lg:text-5xl md:flex md:gap-1"
             title={"Got Questions"}
@@ -39,7 +39,7 @@ export default function GotQuestion() {
             title2={"We’ve Got The Answers"}
           />
         </div>
-        <div className="mt-12 flex flex-col gap-6 mx-5 md:mx-16 lg:mx-0">
+        <div className="mt-12 flex flex-col gap-6 mx-4 md:mx-16 lg:mx-0">
           {question?.map((card, idx) => (
             <div className="p-6 bg-card rounded-xl" key={idx}>
               <div className="bg-primary w-[6px] h-[6px] rounded-full"></div>

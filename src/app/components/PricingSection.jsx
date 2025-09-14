@@ -50,7 +50,7 @@ const pricingCard = [
 export default function PricingSection() {
   const [active, setActive] = useState(0);
   return (
-    <section className="bg-background-dark flex flex-col items-center justify-center w-full pb-30">
+    <section className="bg-background-dark flex flex-col items-center justify-center w-full pb-30 ">
       <div className="max-w-[1200px] w-full">
         <div className="flex gap-2 flex-col mx-5 md:mx-16 lg:mx-5">
           <SectionHeader

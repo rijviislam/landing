@@ -11,7 +11,7 @@ import RealCustomer from "./components/RealCustomer";
 
 export default function Home() {
   return (
-    <>
+    <div className="">
       <Hero />
       <PortfolioSlider/>
       <Designs/>
@@ -22,6 +22,6 @@ export default function Home() {
       <GotQuestion/>
       <RealCustomer/>
       <Footer/>
-    </>
+    </div>
   );
 }

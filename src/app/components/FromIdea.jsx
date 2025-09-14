@@ -30,7 +30,7 @@ export default function FromIdea() {
     <section className="flex items-center justify-center  ">
       <div className="max-w-[1200px] w-full  py-32 relative">
         <div className="w-[204px] h-[204px] bg-primary rounded-full absolute top-1/2 -translate-y-1/2 blur-[300px]"></div>
-        <div className="flex flex-col gap-2 text-center items-center ">
+        <div className="flex flex-col gap-2 text-center items-center mx-4">
           <SectionHeader
             className="text-4xl lg:text-5xl  text-center"
             title={"From Idea to Live Landing Page in "}
@@ -43,7 +43,7 @@ export default function FromIdea() {
             className=" text-center"
           />
         </div>
-        <div className="flex items-center lg:flex-row flex-col gap-6 mt-12 justify-center mx-12 lg:mx-0">
+        <div className="flex items-center lg:flex-row flex-col gap-6 mt-12 justify-center mx-4 lg:mx-0">
           {fromCard?.map((card, idx) => (
             <div
               className="relative p-9  bg-card flex-col flex items-center lg:max-w-[305px] w-full"

@@ -53,7 +53,7 @@ export default function Designs() {
     },
   ];
   return (
-    <section className="w-full mx-auto">
+    <section className="w-full mx-auto ">
       <div className="max-w-[1200px] w-full mx-auto py-30">
         {/* TITLE AND SUBTITLE  */}
         <div className="flex flex-col gap-2 mx-5">
