@@ -48,7 +48,7 @@ const pricingCard = [
 ];
 
 export default function PricingSection() {
-  const [active, setActive] = useState(0);
+  const [active, setActive] = useState(1);
   return (
     <section className="bg-background-dark flex flex-col items-center justify-center w-full pb-30 ">
       <div className="max-w-[1200px] w-full">

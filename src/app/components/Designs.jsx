@@ -1,3 +1,4 @@
+import * as motion from "motion/react-client";
 import DeleveryIcon from "../icons/DeleveryIcon";
 import DesignIcon from "../icons/DesignIcon";
 import PricingIcon from "../icons/PricingIcon";
@@ -73,8 +74,10 @@ export default function Designs() {
         {/* GRID BOX  */}
         <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-9 gap-5 mt-12 lg:mx-0 md:mx-16 mx-5">
           {cardItem.map((card, idx) => (
-            <div
+            <motion.div
               key={idx}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
               className=" p-6 bg-card rounded-sm flex flex-col gap-9"
             >
               <div>{card.icons}</div>
@@ -86,7 +89,7 @@ export default function Designs() {
                   {card.subtitle}
                 </p>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

@@ -1,3 +1,4 @@
+import * as motion from "motion/react-client";
 import DesignIcon from "../icons/DesignIcon";
 import RocketIcon from "../icons/RocketIcon";
 import UserIcon2 from "../icons/UserIcon2";
@@ -45,7 +46,9 @@ export default function FromIdea() {
         </div>
         <div className="flex items-center lg:flex-row flex-col gap-6 mt-12 justify-center mx-4 lg:mx-0">
           {fromCard?.map((card, idx) => (
-            <div
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
               className="relative p-9  bg-card flex-col flex items-center lg:max-w-[305px] w-full"
               key={idx}
             >
@@ -61,7 +64,7 @@ export default function FromIdea() {
               <p className="text-text-secondary-light text-sm font-general text-center">
                 {card.sybTitle}
               </p>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
