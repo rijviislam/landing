@@ -42,7 +42,7 @@ export default function GotQuestion() {
         <div className="mt-12 flex flex-col gap-6 mx-4 md:mx-16 lg:mx-0">
           {question?.map((card, idx) => (
             <div className="p-6 bg-card rounded-xl" key={idx}>
-              <div className="bg-primary w-[6px] h-[6px] rounded-full"></div>
+              <div className="bg-primary size-3 rounded-full"></div>
               <h3 className="text-text-light my-5 font-manrope font-bold text-2xl">
                 {card.title}
               </h3>
