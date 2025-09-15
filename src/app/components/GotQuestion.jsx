@@ -33,7 +33,7 @@ export default function GotQuestion() {
       <div className="max-w-[912px] pb-12">
         <div className="flex gap-2 flex-col mx-4 md:mx-16 lg:mx-5">
           <SectionHeader
-            className="text-4xl lg:text-5xl md:flex md:gap-1"
+            className="text-4xl lg:text-5xl md:flex md:gap-1 text-text-light"
             title={"Got Questions"}
             spanItem={"?"}
             title2={"We’ve Got The Answers"}

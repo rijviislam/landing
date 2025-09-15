@@ -62,7 +62,7 @@ export default function Designs() {
             title={"Why Businesses"}
             spanItem={" Trust Us"}
             title2={" With Their Designs"}
-            className="text-center lg:text-5xl text-4xl"
+            className="text-center lg:text-5xl text-4xl text-text-light"
           />
           <SectionPtext
             text={

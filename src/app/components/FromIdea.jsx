@@ -33,7 +33,7 @@ export default function FromIdea() {
         <div className="w-[204px] h-[204px] bg-primary rounded-full absolute top-1/2 -translate-y-1/2 blur-[300px]"></div>
         <div className="flex flex-col gap-2 text-center items-center mx-4">
           <SectionHeader
-            className="text-4xl lg:text-5xl  text-center"
+            className="text-4xl lg:text-5xl  text-center text-text-light"
             title={"From Idea to Live Landing Page in "}
             spanItem={"Just 5 Days"}
           />

@@ -54,7 +54,7 @@ export default function PricingSection() {
       <div className="max-w-[1200px] w-full">
         <div className="flex gap-2 flex-col mx-5 md:mx-16 lg:mx-5">
           <SectionHeader
-            className="text-5xl"
+            className="text-4xl lg:text-5xl text-text-light"
             title={"Simple, Transparent Pricing — "}
             spanItem={"Choose Your Plan"}
           />
@@ -132,7 +132,7 @@ export default function PricingSection() {
           <div className="">
             <SectionHeader
               title={"Limited Availability"}
-              className="font-bold text-2xl"
+              className="font-bold text-2xl text-text-light"
             />
             <SectionPtext
               text={
@@ -145,7 +145,7 @@ export default function PricingSection() {
         <div className="bg-card py-12 w-full rounded-2xl flex flex-col items-center ">
           <div className="flex flex-col gap-2 items-center px-5">
             <SectionHeader
-              className="text-5xl text-center"
+              className="text-4xl lg:text-5xl text-center lg:text-text-light text-primary "
               title={"Special Offer For Early Clients"}
             />
             <SectionPtext

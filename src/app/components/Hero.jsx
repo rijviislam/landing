@@ -14,7 +14,7 @@ import Button from "./Button";
 export default function Hero() {
   return (
     <section className="flex flex-col items-center justify-center ">
-      <div className="relative flex flex-col items-center justify-center  max-w-[1200px] w-full px-16 pb-32">
+      <div className="relative flex flex-col items-center justify-center  max-w-[1200px] w-full px-4 md:px-16 pb-32">
         <div className="bg-primary rounded-[816px] w-full max-w-[816px] h-[250px]  absolute -top-32 left-1/2 -translate-x-1/2 opacity-20 blur-[175.7px] z-0"></div>
         <Link href="/">
           <Image src={Logo} alt="Logo" className="mt-6" />

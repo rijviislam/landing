@@ -116,7 +116,7 @@ export default function ClientSaying() {
       <div className="max-w-[1250px] w-full py-32">
         <div className="flex gap-2 flex-col mx-4 md:mx-16 lg:mx-5">
           <SectionHeader
-            className="text-4xl lg:text-5xl"
+            className="text-4xl lg:text-5xl text-text-light"
             title={"What Our Clients Are Saying "}
             spanItem={"About Us"}
           />

@@ -88,7 +88,7 @@ export default function CaseStudies() {
         <div className="flex flex-col gap-2 items-center">
           <SectionHeader
             title={"Case Studies"}
-            className="text-text-light text-5xl"
+            className=" text-4xl lg:text-5xl text-text-light"
           />
           <SectionPtext text={"See the designs that delivered results"} />
         </div>
