@@ -112,7 +112,7 @@ export default function ClientSaying() {
   );
 
   return (
-    <section className="flex items-center justify-center  w-full ">
+    <section className="flex items-center justify-center  w-full overflow-x-hidden">
       <div className="max-w-[1250px] w-full py-32">
         <div className="flex gap-2 flex-col mx-4 md:mx-16 lg:mx-5">
           <SectionHeader
