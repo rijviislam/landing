@@ -36,7 +36,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className=" gap-2 items-center md:hidden flex">
+        <div className=" gap-2 items-center md:hidden flex mt-4">
           <Link href="/">
             <LinkdinIcon />
           </Link>
