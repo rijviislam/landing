@@ -15,7 +15,7 @@ export default function Footer() {
           <Link href="/">
             <Image src={Logo} alt="Logo" />
           </Link>
-          <p className="text-background-dark font-general text-xs">
+          <p className="text-background-dark font-general text-xs text-end">
             © All rights reserved to Ena Ema Technologies
           </p>
           <div className=" gap-5 items-center md:flex hidden">
@@ -36,7 +36,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className=" gap-5 items-center md:hidden flex">
+        <div className=" gap-2 items-center md:hidden flex">
           <Link href="/">
             <LinkdinIcon />
           </Link>
